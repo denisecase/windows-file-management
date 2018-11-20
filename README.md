@@ -2,12 +2,12 @@
 
 > Basic Windows file management with PowerShell
 
-- [Webpage](https://github.com/denisecase/windows-file-management)
-- [Source](https://denisecase.github.io/windows-file-management/)
+- [Webpage](https://denisecase.github.io/windows-file-management/)
+- [Source](https://github.com/denisecase/windows-file-management/)
 
 ## Prerequisites
 
-- [Windows Setup for Developers](https://denisecase.github.io/windows-setup/)
+- [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
 
 ## Organizing Files
 
@@ -78,7 +78,11 @@ cd ..
 - PowerShell - powerful command line interface for Windows
 - Windows 10 - popular operating system
 
+## Next Steps
+
+- See [Git Started With Windows](https://github.com/denisecase/git-started-windows)
+
 ## References
 
 1. [PowerShell Docs](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6)
-1. [Windows Setup for Developers](https://denisecase.github.io/windows-setup/)
+2. [Windows Setup for Developers](https://denisecase.github.io/windows-setup/)
