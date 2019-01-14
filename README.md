@@ -35,7 +35,8 @@ The full name is provided for additional reference [1].
 - cd - change directory [Set-Location]
 - cd .. - cd up to immediate parent (cd ..\.. to go up 2 levels)
 - rm - remove [Remove-Item]
-- rni - rename [Rename-Item]
+- rni - rename item [Rename-Item]
+- ni - new item [New-Item]
 - ls - list contents [Get-ChildItem]
 - clear - clear the history of commands [Clear-Host]
 
@@ -56,11 +57,12 @@ When using the commands, it can be helpful to think in terms of "directories".
 3. Change into your new directory.
 4. Make several subdirectories.
 5. Move into the first subdirectory.
-6. Create another child directory.
-7. Rename it.
-8. Delete it.
-9. Back up to your projects directory.
-10. Back up to your user directory.
+6. Create an empty file (new item).
+7. Create another child directory.
+8. Rename it.
+9. Delete it.
+10. Back up to your projects directory.
+11. Back up to your user directory.
 
 ```PowerShell
 mkdir projects
@@ -70,6 +72,7 @@ mkdir proj1
 mkdir proj2
 mkdir proj3
 cd proj1
+ni README.md
 mkdir startup
 rni startup startingup
 rm startingup
