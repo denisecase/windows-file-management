@@ -92,7 +92,6 @@ cd ..
 
 ## Next Steps
 
-- See [Get Setup With Chocolatey](https://github.com/denisecase/get-setup-with-chocolatey)
 - See [Git Started With Windows](https://github.com/denisecase/git-started-windows)
 
 ## References
