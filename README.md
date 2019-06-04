@@ -92,7 +92,7 @@ cd ..
 
 ## Next Steps
 
-- See [Git Started With Windows](https://github.com/denisecase/git-started-windows)
+- See [Basic Tools for Web Development](https://github.com/denisecase/basic-tools-for-webdev)
 
 ## References
 
