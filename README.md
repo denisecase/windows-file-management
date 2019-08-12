@@ -1,4 +1,7 @@
-# Windows File Management
+# Basic Windows File Management
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](code-of-conduct.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 > Basic Windows file management with PowerShell
 
@@ -11,24 +14,22 @@
 
 ## Organizing Files
 
-Windows arranges files in a tree structure, with the C:\ drive typically at the root of the tree. 
+Windows arranges files in a tree structure, with the C:\ drive typically at the root of the tree.
 If a computer has been partitioned into multiple drives, you may see other drive names as well.
 
-We can use PowerShell to create, delete, and rename folders, sub-folders, and files. 
-It's a powerful tool for organizing your files.
+We can use PowerShell to create, delete, and rename folders, sub-folders, and files. It's a powerful tool for organizing your files.
 
-For example, you may create a folder for school, and from inside that folder, 
-create a sub-folder for each of your courses.
+For example, you may create a folder for school, and from inside that folder, create a sub-folder for each of your courses.
 
 ## File Explorer
 
-The Windows File Explorer is a graphical way of browsing files. 
-Use this along with the PowerShell command line interface (CLI). 
+The Windows File Explorer is a graphical way of browsing files.
+Use this along with the PowerShell command line interface (CLI).
 Folders and files can be added, edited, and deleted in File Explorer as well.
 
 ## Basic PowerShell Commands
 
-PowerShell offers aliases (shortened names) for common commands. 
+PowerShell offers aliases (shortened names) for common commands.
 The full name is provided for additional reference [1].
 
 - mkdir - create new folder/directory [Create-Item]
@@ -36,21 +37,23 @@ The full name is provided for additional reference [1].
 - cd .. - cd up to immediate parent (cd ..\.. to go up 2 levels)
 - rm - remove [Remove-Item]
 - rni - rename item [Rename-Item]
-- ni - new item [New-Item]
+- ni - new item [New-Item] - even shorter than Bash 'touch' command!
 - ls - list contents [Get-ChildItem]
 - clear - clear the history of commands [Clear-Host]
 
 ## Open PowerShell in User Folder
 
-Use File Explorer to open your user folder (e.g. C:\Users\acctname). 
-Right-click on the folder itself (showing your account name) or in the white space off to the right. 
+Use File Explorer to open your user folder (e.g. C:\Users\acctname).
+Right-click on the folder itself (showing your account name) or in the white space off to the right.
 
-Select "Open PowerShell window here as administrator" from the context menu [2].
+Select "Open PowerShell window here as administrator" from the context menu.
+If this is not yet available, see [Windows Setup for Developers](https://github.com/denisecase/windows-setup) to add this command to your context menu.
 
 ## Working with Folders
 
-"Folders" and "directories" are the same and the terms can be used interchangeably. 
+"Folders" and "directories" are the same and the terms can be used interchangeably.
 When using the commands, it can be helpful to think in terms of "directories".
+Try the following tasks - the commands are listed below.
 
 1. In your default user folder, create a new folder/directory named "projects".
 2. Try to create it again (the command should fail).
@@ -92,9 +95,11 @@ cd ..
 
 ## Next Steps
 
-- See [Basic Tools for Web Development](https://github.com/denisecase/basic-tools-for-webdev)
+Now it's time to install some basic tools and software.
 
-## References
+- Follow [Basic Tools for Web Development](https://github.com/denisecase/basic-tools-for-webdev) to get some of the most common tools for professional software development.
+
+## See Also
 
 1. [PowerShell Docs](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6)
-2. [Windows Setup for Developers](https://denisecase.github.io/windows-setup/)
+2. [Windows Developer List (of Guides)](https://github.com/denisecase/windows-dev-list)
