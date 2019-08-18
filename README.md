@@ -101,5 +101,5 @@ Now it's time to install some basic tools and software.
 
 ## See Also
 
-1. [PowerShell Docs](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6)
-2. [Windows Developer List (of Guides)](https://github.com/denisecase/windows-dev-list)
+- [Setting Up for Professional Software Development](https://github.com/denisecase/pro-dev-list)
+- [PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6)
