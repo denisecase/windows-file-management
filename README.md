@@ -97,9 +97,8 @@ cd ..
 
 Now it's time to install some basic tools and software.
 
-- Follow [Basic Tools for Web Development](https://github.com/denisecase/basic-tools-for-webdev) to get some of the most common tools for professional software development.
+- Follow [Basic Tools](https://github.com/denisecase/basic-tools-for-webdev) to get some of the most common tools for professional software development.
 
 ## See Also
 
-- [Setting Up for Professional Software Development](https://github.com/denisecase/pro-dev-list)
 - [PowerShell Documentation](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6)
